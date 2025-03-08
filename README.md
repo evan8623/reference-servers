@@ -1,4 +1,5 @@
 # Model Context Protocol servers
+[![smithery badge](https://smithery.ai/badge/@evan8623/reference-servers)](https://smithery.ai/server/@evan8623/reference-servers)
 
 This repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references
 to community built servers and additional resources.
@@ -166,6 +167,14 @@ Additional resources on MCP.
 - **[Smithery](https://smithery.ai/)** - A registry of MCP servers to find the right tools for your LLM agents by **[Henry Mao](https://github.com/calclavia)**
 
 ## 🚀 Getting Started
+
+### Installing via Smithery
+
+To install Reference Servers for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@evan8623/reference-servers):
+
+```bash
+npx -y @smithery/cli install @evan8623/reference-servers --client claude
+```
 
 ### Using MCP Servers in this Repository
 Typescript-based servers in this repository can be used directly with `npx`.
